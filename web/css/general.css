@@ -1,0 +1,217 @@
+/*
+    COLORS
+*/
+
+.background-color-black-z0 {
+    background-color: #171717 !important;
+}
+
+.background-color-black-z1 {
+    background-color: #161C20 !important;
+}
+
+.background-color-black-z3 {
+    background-color: #20272D !important;
+}
+
+.background-color-black-z4 {
+    background-color: #2A3840 !important;
+}
+
+.background-color-black-z5 {
+    background-color: #3C4C55 !important;
+}
+
+.background-color-primary {
+    background-color: #70C989 !important;
+}
+
+.background-color-secondary {
+    background-color: #FFF62F !important;
+}
+
+.color-primary {
+    color: #70C989 !important;
+}
+
+.color-primary-highlight {
+    color: #95D7A8 !important;
+}
+
+.color-secondary {
+    color: #FFF62F !important;
+}
+
+.color-gray {
+    color: #C1C1C1 !important;
+}
+
+/*
+    TAGS
+ */
+
+body {
+    background-color: #171717 !important;
+    color: #FFF;
+}
+
+a {
+    color: #00BC8C;
+    text-decoration: none;
+}
+
+/*
+    IDS
+*/
+
+#searchInput {
+    color: #FFF;
+}
+
+#searchInput:focus, #searchInput:active, #searchInput:hover {
+    color: #21292B;
+    background-color: #FFF !important;
+}
+
+/*
+    TEXT
+ */
+
+.fs-7 {
+    font-size: 0.75rem;
+}
+
+/*
+    CARDS
+*/
+
+.card-header-border {
+    border-bottom: 1px solid #fff62f;
+}
+
+.fisc-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.team-img {
+    width: 150px;
+    height: 225px;
+}
+
+.team-desc {
+    width: 250px;
+    height: 225px;
+}
+
+/*
+    posters?
+*/
+
+.poster-slider {
+    width: 900px;
+    white-space: nowrap;
+    font-size: 0;
+}
+
+.poster-slider-item {
+    display: inline-block;
+    width: 170px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.poster-img {
+    width: 170px;
+    height: 255px;
+}
+
+.poster-title {
+    height: 48px;
+    width: 144px;
+    font-weight: 500;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+/*
+    items
+*/
+
+.nav-profile-img {
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.dropdown-item:hover, .dropdown-item:focus,
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #00bc8c;
+}
+
+.carousel-control-icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+.carousel-control-icon i {
+    font-size: 32px;
+    color: #FFF62F;
+}
+
+.post-img {
+    width: 50px;
+    height: 50px;
+}
+
+.post-img-big {
+    width: 150px;
+    height: 150px;
+}
+
+/**
+    Quill
+ */
+
+.rich-text-editor-container {
+    width: 600px;
+}
+
+.quill-editor-text-area {
+    height: 200px;
+}
+
+.quill-post-editor-text-area {
+    min-height: 200px;
+    /*max-height: 800px;*/
+}
+
+.ql-toolbar {
+    background-color: #2A3840;
+}
+
+.ql-toolbar .ql-stroke {
+    fill: none;
+    stroke: #fff; !important;
+}
+
+.ql-toolbar .ql-fill {
+    fill: #fff; !important;
+    stroke: none;
+}
+
+.ql-toolbar .ql-picker {
+    color: #fff; !important;
+}
+
+.ql-toolbar-hidden {
+    display: none; !important;
+}
+
+.ql-editor-read-only {
+    border: none !important;
+    outline: none !important;
+}

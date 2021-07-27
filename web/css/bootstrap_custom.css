@@ -1,0 +1,122 @@
+/*
+    PRIMARY COLOR BUTTON
+ */
+
+.btn-primary {
+    color: #FFF;
+    background-color: #70C989;
+    border-color: #70C989;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #95D7A8;
+    border-color: #95D7A8;
+}
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color:#70C989;
+    border-color: #70C989;
+    box-shadow: 0 0 0 0.25rem rgba(112, 201, 137, 0.5);
+}
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #70C989;
+    border-color: #70C989;
+}
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(112, 201, 137, 0.5);
+}
+.btn-primary:disabled, .btn-primary.disabled {
+    color: #fff;
+    background-color: #70C989;
+    border-color: #70C989;
+}
+
+.btn-outline-primary {
+    color: #70C989;
+    border-color: #70C989;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #95D7A8;
+    border-color: #95D7A8;
+}
+.btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(112, 201, 137, 0.5);
+}
+.btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
+    color: #fff;
+    background-color: #95D7A8;
+    border-color: #95D7A8;
+}
+.btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
+    box-shadow: 0 0 0 0.25rem rgba(112, 201, 137, 0.5);
+}
+.btn-outline-primary:disabled, .btn-outline-primary.disabled {
+    color: #70C989;
+    background-color: transparent;
+}
+
+/*
+    CAROUSEL
+ */
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+/*
+    LIST GROUP
+ */
+
+.list-group-item {
+    border: 1px solid rgb(193, 193, 193);
+}
+
+/*
+    PAGINATION
+ */
+
+.page-link {
+    position: relative;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #3C4C55;
+    border: 1px solid #2A3840;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #95D7A8;
+    border-color: #70C989;
+}
+
+.page-link:focus {
+    z-index: 3;
+    color: #fff;
+    background-color: #95D7A8;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(112, 201, 137);
+}
+
+.page-item:not(:first-child) .page-link {
+    margin-left: -1px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #95D7A8;
+    border-color: #70C989;
+}
+
+.page-item.disabled .page-link {
+    color: #C1C1C1;
+    pointer-events: none;
+    background-color: #2A3840;
+    border-color: #2A3840;
+}
